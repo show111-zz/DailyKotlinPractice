@@ -1,9 +1,9 @@
-package com.hannah.practice
+package com.hannah.practice.chapter1
 
 import javafx.scene.shape.Rectangle
 
 /**
- * created by Hannah Li on 2021-10-29
+ * created by huilee on 2021-10-29
  */
 
 fun main() {
@@ -150,6 +150,8 @@ fun describe(obj: Any): String =
 
 /**
  * 区间 range
+ * for (i in 1..100) { …… }  // 闭区间：包含 100
+ * for (i in 1 until 100) { …… } // 半开区间：不包含 100
  */
 fun checkInRange() {
     val x = 10
